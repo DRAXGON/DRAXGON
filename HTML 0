@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TXT</title>
+    <link rel="stylesheet" href="../CSS/master.css">
+</head>
+
+<body>
+
+
+
+    <div class="X">
+        <span class="A">123456789</span>
+        <span class="B">123456789</span>
+        <span class="C">123456789</span>
+        <span class="D">123456789</span>
+        <span class="E">123456789</span>
+    </div>
+
+    <br>
+    <hr>
+
+    <br>
+    <br>
+
+
+    <div class="Z">
+        <p>0123456789 <span>0123456789</span> <span>0123456789</span> <span>0123456789</span> <span>0123456789</span> </p>
+    </div>
+
+</body>
+
+</html>
