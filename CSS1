@@ -1,0 +1,103 @@
+body {
+    background-image: url("../../../../Pictures/GOLDEN.jpg");
+    background-repeat: no-repeat;
+    /* TYPES OF REPEAT:no-repeat,repeat,repeat-x,repeat-y */
+    background-attachment: fixed;
+    /* background-attachment TYPES: fixed,scroll */
+    background-position: center;
+    /* background-position TYPES: persent%,px,Select from the nine options */
+    background-size: cover;
+    /* background-size TYPES:auto,cover,contain,width and height in px,percent% */
+}
+
+.A {
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    width: 80%;
+    margin-left: 20%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+.B {
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    width: 0%;
+    margin-left: 0%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+.C {
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    width: 0%;
+    margin-left: 0%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+.D {
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    width: 0%;
+    margin-left: 0%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+.E {
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    width: 0%;
+    margin-left: 0%;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+.X {
+    margin-top: 75px;
+}
+
+hr {
+    background-color: rgb(202, 74, 175);
+    width: 100%;
+    height: 3px;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+}
+
+.Z {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 10px;
+    border-color: white;
+    border-style: groove;
+}
