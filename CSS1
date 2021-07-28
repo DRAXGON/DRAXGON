@@ -10,94 +10,117 @@ body {
     /* background-size TYPES:auto,cover,contain,width and height in px,percent% */
 }
 
-.A {
-    background-color: gray;
-    color: white;
-    font-size: 25px;
-    padding: 5px 10px;
-    margin: 10px 5px;
-    width: 80%;
-    margin-left: 20%;
-    border-width: 3px;
-    border-color: white;
-    border-style: solid;
-}
-
-.B {
-    background-color: gray;
-    color: white;
-    font-size: 25px;
-    padding: 5px 10px;
-    margin: 10px 5px;
-    width: 0%;
-    margin-left: 0%;
-    border-width: 3px;
-    border-color: white;
-    border-style: solid;
-}
-
-.C {
-    background-color: gray;
-    color: white;
-    font-size: 25px;
-    padding: 5px 10px;
-    margin: 10px 5px;
-    width: 0%;
-    margin-left: 0%;
-    border-width: 3px;
-    border-color: white;
-    border-style: solid;
-}
-
-.D {
-    background-color: gray;
-    color: white;
-    font-size: 25px;
-    padding: 5px 10px;
-    margin: 10px 5px;
-    width: 0%;
-    margin-left: 0%;
-    border-width: 3px;
-    border-color: white;
-    border-style: solid;
-}
-
-.E {
-    background-color: gray;
-    color: white;
-    font-size: 25px;
-    padding: 5px 10px;
-    margin: 10px 5px;
-    width: 0%;
-    margin-left: 0%;
-    border-width: 3px;
-    border-color: white;
-    border-style: solid;
-}
-
-.X {
-    margin-top: 75px;
-}
-
-hr {
-    background-color: rgb(202, 74, 175);
+._ {
+    background-color: darkred;
     width: 100%;
     height: 3px;
     padding: 0px;
     margin: 0px;
     border-width: 0px;
+    margin-top: 5%;
 }
 
-.Z {
-    background-color: black;
+.X {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.__ {
+    background-color: darkred;
+    width: 100%;
+    height: 3px;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    margin-top: 0%;
+}
+
+span {
+    background-color: darkgray;
     color: white;
     font-size: 25px;
+    border: white;
+    border-width: 3px;
+    border-style: solid;
     padding: 5px 10px;
     margin: 10px 5px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: 10px;
-    border-color: white;
-    border-style: groove;
 }
+
+.W {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-width: 10px;
+    border-color: orangered;
+    border-style: solid;
+    padding: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    outline-width: 5px;
+    outline-color: white;
+    outline-style: dashed;
+    outline-offset: 2px;
+    border-radius: 10px;
+    text-align: center
+}
+
+.R {
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.r {
+    background-color: orangered;
+    padding: 10px;
+    margin: 5px;
+    visibility: hidden;
+}
+
+
+/* 
+===BLOCK===
+
+-will take full width,If you do not specify the offer.
+-Put a break between it and the other element.
+-respect padding,margin,width,height.
+*/
+
+
+/* 
+===INLINE===
+
+-don't respect width and height.
+-didn't Put a break between it and the other element.
+-respect padding and margin but just [left,right].
+-allow elements before and after it.
+
+*/
+
+
+/* 
+===INLINE-BLOCK===
+
+-allow elements before and after it.
+-respect padding,margin,width,height.
+*/
+
+
+/* 
+===NONE===
+
+-Hide an element without reserving its place.
+*/
+
+
+/* 
+===visibility: hidden===
+
+-To hide an element while reserving its place.
+*/
+
+
+/* THE USEFULL KEY FOR BLOCK,INLINE,INLINE-BLOCK=display */
